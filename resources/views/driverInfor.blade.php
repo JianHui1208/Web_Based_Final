@@ -30,7 +30,7 @@
             </p>
             <p>
                 <label for="driverPhoto" class="label">Driver Photo: {{$infor->driverPhoto}}</label>
-                <!-- <img src="{{ asset('img/')}}/" alt="" height="10%"> -->
+                <!-- <img src="{{ asset('img/')}}/{{$infor->driverPhoto}}" alt="" height="10%"> -->
             </p>
             <p>
                 <label for="status" class="label">Driver Status: {{$infor->Status}}</label>

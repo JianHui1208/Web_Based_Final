@@ -45,7 +45,7 @@ class driverController extends Controller
             'insurance'=>$r->insurance,
         ]);
             Session::flash('success',"Driver Information create succesful!");
-        Return redirect()->route('driver');
+        Return redirect()->route('all.Driver');
     }
 
     public function showlist(){
